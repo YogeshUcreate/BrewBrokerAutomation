@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Contract Workflow BrewBroker]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="VerifyCreateTender(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyCreateTenderfromBuyer">
+        <methods>
+          <include name="createTenderbyBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyCreateTenderfromBuyer -->
+    </classes>
+  </test> <!-- VerifyCreateTender(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyCreateQuote(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyCreateQuoteFromSupplier">
+        <methods>
+          <include name="createQuotebySupplier"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyCreateQuoteFromSupplier -->
+    </classes>
+  </test> <!-- VerifyCreateQuote(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyCreateRecipe(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyCreateRecipeFromBuyer">
+        <methods>
+          <include name="createRecipebyBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyCreateRecipeFromBuyer -->
+    </classes>
+  </test> <!-- VerifyCreateRecipe(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyCreateRecipeFinalCost(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyRecipeTotalCostFromSupplier">
+        <methods>
+          <include name="RecipeTotalCostSupplier"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyRecipeTotalCostFromSupplier -->
+    </classes>
+  </test> <!-- VerifyCreateRecipeFinalCost(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyFinalizeQuoteBuyer(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyFinalizeQuoteBuyer">
+        <methods>
+          <include name="createRecipebyBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyFinalizeQuoteBuyer -->
+    </classes>
+  </test> <!-- VerifyFinalizeQuoteBuyer(failed) -->
+  <test thread-count="5" verbose="0" name="SupplierOnboarding(failed)">
+    <classes>
+      <class name="com.TestCases.VerifySupplierOnboarding">
+        <methods>
+          <include name="createSupplier"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySupplierOnboarding -->
+    </classes>
+  </test> <!-- SupplierOnboarding(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyBuyerOnboarding(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyBuyerOnboarding">
+        <methods>
+          <include name="createBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyBuyerOnboarding -->
+    </classes>
+  </test> <!-- VerifyBuyerOnboarding(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyEditSupplierProfile(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyEditSupplierProfile">
+        <methods>
+          <include name="EditSupplierPage"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyEditSupplierProfile -->
+    </classes>
+  </test> <!-- VerifyEditSupplierProfile(failed) -->
+</suite> <!-- Failed suite [Contract Workflow BrewBroker] -->

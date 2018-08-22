@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+<suite name="Contract Workflow BrewBroker" verbose="1" parallel="none">
+  
+  <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" /> 
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+   <test name="VerifyCreateTender">
+	 <classes>
+	   <class name="com.TestCases.VerifyCreateTenderfromBuyer"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyCreateQuote">
+	 <classes>
+	   <class name="com.TestCases.VerifyCreateQuoteFromSupplier"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyCreateRecipe">
+	 <classes>
+	   <class name="com.TestCases.VerifyCreateRecipeFromBuyer"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyCreateRecipeFinalCost">
+	 <classes>
+	   <class name="com.TestCases.VerifyRecipeTotalCostFromSupplier"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyFinalizeQuoteBuyer">
+	 <classes>
+	   <class name="com.TestCases.VerifyFinalizeQuoteBuyer"/>
+	 </classes>
+   </test>
+   
+   <test name="SupplierOnboarding">
+	 <classes>
+	   <class name="com.TestCases.VerifySupplierOnboarding"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyBuyerOnboarding">
+	 <classes>
+	   <class name="com.TestCases.VerifyBuyerOnboarding"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyEditSupplierProfile">
+	 <classes>
+	   <class name="com.TestCases.VerifyEditSupplierProfile"/>
+	 </classes>
+   </test>
+   
+   </suite>

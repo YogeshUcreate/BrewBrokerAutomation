@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Buyer selected brewery type]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added first name]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added last name]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added company name]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added email address]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added general information]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added profile picture]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added his location]]>
+    </line>
+    <line>
+      <![CDATA[Buyer added summary]]>
+    </line>
+    <line>
+      <![CDATA[Buyer account created successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87736" started-at="2018-08-14T12:12:32Z" finished-at="2018-08-14T12:14:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87736" started-at="2018-08-14T12:12:32Z" finished-at="2018-08-14T12:14:00Z">
+      <class name="com.TestCases.VerifyBuyerOnboarding">
+        <test-method status="PASS" signature="createBuyer()[pri:0, instance:com.TestCases.VerifyBuyerOnboarding@53b32d7]" name="createBuyer" duration-ms="87698" started-at="2018-08-14T12:12:32Z" finished-at="2018-08-14T12:14:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Buyer selected brewery type]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added first name]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added last name]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added company name]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added email address]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added general information]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added profile picture]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added his location]]>
+            </line>
+            <line>
+              <![CDATA[Buyer added summary]]>
+            </line>
+            <line>
+              <![CDATA[Buyer account created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createBuyer -->
+      </class> <!-- com.TestCases.VerifyBuyerOnboarding -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

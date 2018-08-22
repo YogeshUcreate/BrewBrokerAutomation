@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Contract Workflow Tender]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="VerifyCreateTender(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyCreateTenderfromBuyer">
+        <methods>
+          <include name="createTenderbyBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyCreateTenderfromBuyer -->
+    </classes>
+  </test> <!-- VerifyCreateTender(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyFinalizeQuoteBuyer(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyFinalizeQuoteBuyer">
+        <methods>
+          <include name="createRecipebyBuyer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyFinalizeQuoteBuyer -->
+    </classes>
+  </test> <!-- VerifyFinalizeQuoteBuyer(failed) -->
+  <test thread-count="5" verbose="0" name="VerifyEditSupplierProfile(failed)">
+    <classes>
+      <class name="com.TestCases.VerifyEditSupplierProfile">
+        <methods>
+          <include name="EditSupplierPage"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyEditSupplierProfile -->
+    </classes>
+  </test> <!-- VerifyEditSupplierProfile(failed) -->
+</suite> <!-- Failed suite [Contract Workflow Tender] -->
